@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player ITM</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="video-wrapper">
+        <div class="player">
+            
+            <video id="video" poster="./images/poster.jpg" src="./videos/lofi.mp4" width="600px"></video>
+
+            <div class="player-overlay">
+                <h2 class="player-title">Video Player</h2>
+
+                <div class="player-actions">
+                    <button class="button" id="backward" title="Retroceder 10 segundos" aria-label="Retroceder 10 segundos"></button>
+                    <button class="button" id="play" title="Play" aria-label="Play"></button>
+                    <button class="button" id="pause" hidden title="Pausa" aria-label="Pausa"></button>
+                    <button class="button" id="forward" title="Adelantar 10 segundos" aria-label="Adelantar 10 segundos"></button>
+                </div>
+                <div class="player-progress">
+                    <input id="progress" type="range" min="0" max="100" step="1" value="0">
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
