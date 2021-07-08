@@ -70,3 +70,15 @@ body{
 .player-progress input{
     flex: 1;
 }
+
+.sombra {
+	-moz-box-shadow: 6px 6px 12px #808080;
+	-ms-box-shadow: 6px 6px 12px #808080;
+	-o-box-shadow: 6px 6px 12px #808080;
+	-webkit-box-shadow: 6px 6px 12px #808080;
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	box-shadow: 6px 6px 12px #808080;
+	margin-left: auto;
+	margin-right: auto;
+}
