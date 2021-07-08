@@ -1,7 +1,7 @@
 @import './buttons.css';
 
 body{
-    background: linear-gradient(to right, rgb(6, 102, 105), #6585ed);
+    background: white;
     font-family: 'Segoe UI', 'Calibri', 'Verdana', 'Arial';
     font-size: 16px;
 	font-weight: normal;
