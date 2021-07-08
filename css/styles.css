@@ -35,6 +35,13 @@ body{
     object-fit: cover;
 }
 
+.player-overlay{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 0.3s opacity;
+}
+
 .player-title{
     color: white;
     position: absolute;
@@ -43,11 +50,11 @@ body{
     margin: 0;
 }
 
-.player-overlay{
+.player-watemark{
     position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: 0.3s opacity;
+    inset-block-end: 40px;
+    inset-inline-start: 15px;
+    opacity: 0.95;
 }
 
 .player-actions{
