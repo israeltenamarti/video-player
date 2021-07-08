@@ -11,7 +11,7 @@ $play.addEventListener('click', handlePlay);
 $pause.addEventListener('click', handlePause);
 $backward.addEventListener('click', handleBackward);
 $forward.addEventListener('click', handleForward);
-//Cuando se carguen los metadatos del video, consultamos la duración
+//Cuando se carguen los metadatos del video, consultamos la duración para establecer el progressbar
 $video.addEventListener('loadedmetadata',handleLoaded);
 //Cuando avanza el video
 $video.addEventListener('timeupdate',handleTimeUpdate);
